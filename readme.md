@@ -13,7 +13,9 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
+  https://santuajayvee7.github.io/WD-Santua_final_project/
   This final project is portfolio type where all the works in this course is compiled.
+  
 </div>
 
 <br />
@@ -121,3 +123,6 @@ WD-ProjectName
 | Font Awesome | Icons | https://fontawesome.com/search?q=resume&o=r&f=classic%2Csharp%2Cbrands |
 | Box Shadow Generator | For box shadow | https://cssgenerator.org/box-shadow-css-generator.html#google_vignette |
 | Youtube | For reference | https://www.youtube.com/watch?v=DmiVBbNLzo8&list=PLrKudo5h_b8CKGtcPWIYtWmbTokv8QhlY&index=2|
+
+
+Wakatime Link: https://wakatime.com/dashboard
