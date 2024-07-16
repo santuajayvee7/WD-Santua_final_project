@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/color-1.css">
+    <link rel="stylesheet" href="./assets/css/styleSwitcher.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="./assets/css/color-1.css" class="alternative-style" title="color-1" disabled>
+    <link rel="stylesheet" href="./assets/css/color-2.css" class="alternative-style" title="color-2" disabled>
+    <link rel="stylesheet" href="./assets/css/color-3.css" class="alternative-style" title="color-3" disabled>
+    <link rel="stylesheet" href="./assets/css/color-4.css" class="alternative-style" title="color-4" disabled>
+    <link rel="stylesheet" href="./assets/css/color-5.css" class="alternative-style" title="color-5" disabled>
+    
     <title>Final Project</title>
 </head>
 <body>
     <!-- ==== Main Container ===== -->
-     <div class="main-container">
-         <!--========= Aside Start =======-->
-         <div class="aside">
+    <div class="main-container">
+        <!--========= Aside Start =======-->
+        <div class="aside">
             <div class="logo">
                 <a href="#"><span>j</span>ayvee</a>
             </div>
@@ -20,47 +27,348 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="./index.html" class="activte"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="./pages/about/index.html"><i class="fa fa-user"></i>About </a></li>
+                <li><a href="./index.html" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="./pages/about/index.html"><i class="fa fa-user"></i>About</a></li>
                 <li><a href=""><i class="fa fa-list"></i>Credits</a></li>
                 <li><a href=""><i class="fa fa-briefcase"></i>Portfolio</a></li>
                 <li><a href=""><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
-         </div>
-         
-         <!--========= Aside End ========-->
-         <!--========= Main Content Start ========-->
-         <div class="main-content">
+        </div>
+        <!--========= Aside End ========-->
+        <!--========= Main Content Start ========-->
+        <div class="main-content">
             <!--======== Home Section Start =======-->
             <section class="home section">
                 <div class="container">
                     <div class="row">
                         <div class="home-info">
                             <h3 class="hello">Hello, my name is <span class="name">Jayvee Santua</span></h3>
-                            <h3 class="profession">I' m an <span class="typing">IT Student</span></h3>
-                            <P>I'm a BSIT Cybersecurity student at FEU, immersing myself in the intriguing world of technology. I find genuine excitement in exploring the ins and outs of cybersecurity, envisioning a future where I contribute to making digital spaces safer. Each day is a new opportunity to absorb knowledge, overcome challenges, and build a solid foundation for my tech journey.
-                            </P>
+                            <h3 class="profession">I'm an <span class="typing">IT Student</span></h3>
+                            <p>I'm a BSIT Cybersecurity student at FEU, immersing myself in the intriguing world of technology. I find genuine excitement in exploring the ins and outs of cybersecurity, envisioning a future where I contribute to making digital spaces safer. Each day is a new opportunity to absorb knowledge, overcome challenges, and build a solid foundation for my tech journey.</p>
                             <a href="./pages/about/index.html" class="btn about-me">About Me</a>
                         </div>
                         <div class="home-img padd-15">
-                            <img src="./assets/img/me.jpg " alt="">
+                            <img src="./assets/img/me.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </section>
-             <!--======== Home Section End =======-->
-         </div>
-         <!--========= Main Content End ========-->
-     </div>
+            <!--======== Home Section End =======-->
 
-     <!---->
+            <!--======== About Section Start =======-->
+            <section class="about section">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>Hi there! I'm Jayvee Russel Santua, an <span>IT Student</span> here at FEU TECH</h3>
+                                    <p>I'm passionate about safeguarding digital landscapes. I'm dedicated to mastering the intricacies of cybersecurity protocols and technologies. With a firm grasp of network security, cryptography, and ethical hacking, I'm committed to ensuring robust defenses against digital threats. Currently honing my skills through hands-on experience and continuous learning, I aspire to contribute to the evolving field of cybersecurity and make a meaningful impact in securing our digital future.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info padd-15">
+                                            <p>Age: <span>19 y/o</span></p>
+                                        </div>
+                                        <div class="info padd-15">
+                                            <p>Birthday: <span>10 Jul 2005</span></p>
+                                        </div>
+                                        <div class="info padd-15">
+                                            <p>Address: <span>Valenzuela City</span></p>
+                                        </div>
+                                        <div class="info padd-15">
+                                            <p>Degree: <span>BSIT-CST</span></p>
+                                        </div>
+                                        <div class="info padd-15">
+                                            <p>Phone: <span>+63 999 9497 897</span></p>
+                                        </div>
+                                        <div class="info padd-15">
+                                            <p>Email: <span>santuajayvee7@gmail.com</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 30%"></div>
+                                                <div class="skill-percent">30%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>C++</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 76%"></div>
+                                                <div class="skill-percent">76%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--======== About Section End =======-->
+            <!--Knowledge Section Start-->
+            <section class="knowledge section padd-15">
+                <div class="container">
+                    <div class="row2">
+                        <div class="section-title padd-15">
+                            <h2>Knowledge In</h2>
+                        </div> 
+                    </div>
+                    <div class="row2">
+                        <!-- ==== Knowledge Item Start ===== -->
+                         <div class="knowledge-item padd-15 ">
+                            <div class="knowledge-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Basic Knowledge</p>
+                                </div>
+                           
+                         </div>
+                         <div class="knowledge-item padd-15">
+                            <div class="knowledge-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Basic Knowledge</p>
+                                </div>
 
-     
-    
-     
-     
+                         </div>
+                         <div class="knowledge-item padd-15">
+                            <div class="knowledge-item-inner ">
+                                <div class="icon">
+                                    <i class="fa fa-pallete"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Basic Knowledge</p>
+                            </div>
+                         </div>
+                         <div class="knowledge-item padd-15">
+                            <div class="knowledge-item-inner ">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Tite</p>
+                            </div>
+                        
+                         </div>
+                         <div class="knowledge-item padd-15">
+                            <div class="knowledge-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Basic Knowledge</p>
+                            </div>
+                         
+                         </div>
+                         <div class="knowledge-item padd-15">
+                            <div class="knowledge-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Basic Knowledge</p>
+                            </div>
+                      
+                         </div>
+                         <!-- ==== Knowledge Item  End ===== -->
+                    </div>
+                </div>
+            </section>
+            <!--=======Knowledge Section End=====-->
+            <!--=====Portfolio Section Start======-->
+            <section class="portfolio section">
+                <div class="container">
+                    <div class="row2">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div> 
+                    </div>
+                    <div class="row2">
+                        <div class="porfolio-heading padd-15">
+                            <h2>My Projects:</h2>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <!--========== portfolio item start ============-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner dark">
+                                <div class="portfolio-img">
+                                    <img src="./assets/img/sw4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner dark">
+                                <div class="portfolio-img">
+                                    <img src="./assets/img/hands-on-2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner dark">
+                                <div class="portfolio-img">
+                                    <img src="./assets/img/sw3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner dark">
+                                <div class="portfolio-img">
+                                    <img src="./assets/img/mm.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner dark">
+                                <div class="portfolio-img">
+                                    <img src="./assets/img/sw2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner dark">
+                                <div class="portfolio-img">
+                                    <img src="./assets/img/sw1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!--========== portfolio item end   ============-->
+                    </div>
+                </div>
+            </section>
+            <!--===== Portfolio Section End =======-->
+             <!--===== Contact Section Start =======-->
+             <section class="contact section">
+                <div class="container">
+                    <div class="row2">
+                        <div class="section-title padd-15">
+                            <h2>Contacts</h2>
+                        </div> 
+                    </div>
+                    <h3 class="contact-title padd-15">Do you have any questions ?</h3>
+                    <h4 class="contact-sub-title padd-15">I 'm very open for any concerns.</h4>
+                    <div class="row2">
+                        <!--============Contact Info Section Start =================-->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4> Call me here</h4>
+                            <p>+63 999 4979 897</p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-school"></i></div>
+                            <h4> School</h4>
+                            <p>FEU Institute of Technology</p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4> Email</h4>
+                            <p>santuajayvee7@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-earth-asia"></i></div>
+                            <h4>Github Profile</h4>
+                            <p>https://github.com/santuajayvee7</p>
+                        </div>
+                        <!--============Contact Info End   =================-->
+                    </div>
+                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                    <h4 class="contact-sub-title padd-15">I am very responsive to messages!</h4>
+                    <!--Contact Forms -->
+                    <div class="row2">
+                        <div class="contact-form padd-15">
+                            <div class="row2">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row2">
+                                <div class="form-item col-12 padd-15 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row2">
+                                <div class="form-item col-12 padd-15 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row2">
+                                <div class="form-item col-12 padd-15 padd-15">
+                                    <button type="submit " class="btn1">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+              <!--===== Contact Section End =======-->
+        </div>
+        <!--========= Main Content End ========-->
+    </div>
+    <!-- ==== Main Container End ===== -->
 
+    <!--Style Switcher-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="daynight s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4> Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+     <!--Style Switcher End-->
+
+    <!-- ==== JavaScript ==== -->
     <script src="./assets/js/script.js"></script>
-    
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
