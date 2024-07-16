@@ -9,18 +9,18 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Final Project</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This final project is portfolio type where all the works in this course is compiled.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?santuajayvee7/WD-Santua_final_project)
 
 ---
 
@@ -57,20 +57,21 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This final project is portfolio type where all the works in this course is compiled.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project - A website that is portfolio type it encompasses everything needed to develop, build, and deploy a functional and visually appealing web presence. 
+- Whats the purpose - To showcase the work that is done in this subject and provides a platform to display the best work, projects, and achievements.
+- What are key components - HTML Structure, CSS Styling and JavaScript
+- What technology used and how it is used - HTML used to create the foundational structure of each webpage, including headers, paragraphs, images, links, and other elements that make up the content. CSS used to define colors, fonts, layout, and overall appearance of the website. It ensures consistency in design across all pages and enhances visual appeal. JavaScript used for interactive elements such as animations, form validation, dynamic content loading (AJAX), and user interface enhancements. It can also be used for implementing third-party libraries and frameworks.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- CSS Styling 
+- HTML Structure
+- JavaScript
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,4 +118,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Font Awesome | Icons | https://fontawesome.com/search?q=resume&o=r&f=classic%2Csharp%2Cbrands |
+| Box Shadow Generator | For box shadow | https://cssgenerator.org/box-shadow-css-generator.html#google_vignette |
+| Youtube | For reference | https://www.youtube.com/watch?v=DmiVBbNLzo8&list=PLrKudo5h_b8CKGtcPWIYtWmbTokv8QhlY&index=2|
