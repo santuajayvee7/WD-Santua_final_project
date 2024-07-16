@@ -3,19 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="../../assets/css/color-1.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/styleSwitcher.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/color-1.css" class="alternative-style" title="color-1" disabled>
+    <link rel="stylesheet" href="../../assets/css/color-2.css" class="alternative-style" title="color-2" disabled>
+    <link rel="stylesheet" href="../../assets/css/color-3.css" class="alternative-style" title="color-3" disabled>
+    <link rel="stylesheet" href="../../assets/css/color-4.css" class="alternative-style" title="color-4" disabled>
+    <link rel="stylesheet" href="../../assets/css/color-5.css" class="alternative-style" title="color-5" disabled>
+    <title>Knowledge - Jayvee Santua</title>
 </head>
-<body>
-    <section class="about section">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h2>About Me</h2>
-                </div>
+<body class="dark">
+    <!-- ==== Main Container ===== -->
+    <div class="main-container">
+        <!--========= Aside Start =======-->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>j</span>ayvee</a>
             </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="../../index.html"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="../about1/index.html"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="../services/index.html" class="active"><i class="fa fa-list"></i>Knowledge</a></li>
+                <li><a href="../portfolio/index.html"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="../contact/index.html"><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
         </div>
-     </section>
+        <!--========= Aside End ========-->
+
+        <!--========= Main Content Start ========-->
+        <div class="main-content">
+            <!--======== Knowledge Section Start =======-->
+            <section class="knowledge section padd-15" id="knowledge">
+                <div class="container">
+                    <div class="row2">
+                        <div class="section-title padd-15">
+                            <h2>Knowledge In</h2>
+                        </div> 
+                    </div>
+                    <div class="row2">
+                        <!-- ==== Knowledge Item Start ===== -->
+                         <div class="knowledge-item padd-15 ">
+                            <div class="knowledge-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Mobile UI Designing</h4>
+                                <p> Proficiency with prototyping tools like Adobe XD, Figma, or Sketch for creating interactive prototypes of mobile UI designs.</p>
+                                </div>
+                           
+                         </div>
+                         <div class="knowledge-item padd-15">
+                            <div class="knowledge-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Proficiency in HTML and CSS , which are fundamental for creating the structure and styling of web pages.
+
+                                </p>
+                                </div>
+
+                         </div>
+                         <div class="knowledge-item padd-15">
+                            <div class="knowledge-item-inner ">
+                                <div class="icon">
+                                    <i class="fa fa-camera"></i>
+                                </div>
+                                <h4>Adobe Photoshop</h4>
+                                <p> Skills in creating graphics and visual content for websites or promotional materials.</p>
+                            </div>
+                         </div>
+                         <div class="knowledge-item padd-15">
+                            <div class="knowledge-item-inner ">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Coding</h4>
+                                <p> Ability to create responsive web pages that adapt to various screen sizes and devices using HTML and CSS techniques.
+
+                                </p>
+                            </div>
+                        
+                         </div>
+                         <div class="knowledge-item padd-15">
+                            <div class="knowledge-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>Data Analysis</h4>
+                                <p> Ability to analyze data effectively, which is crucial in IT for making informed decisions and deriving insights.</p>
+                            </div>
+                         
+                         </div>
+                         <div class="knowledge-item padd-15">
+                            <div class="knowledge-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Content Creation</h4>
+                                <p>Showcase skills in creating content for websites, blogs, or social media platforms related to IT topics has ability to engage audience.</p>
+                            </div>
+                      
+                         </div>
+                         <!-- ==== Knowledge Item  End ===== -->
+                    </div>
+                </div>
+            </section>
+            <!--======== Knowledge Section End =======-->
+        </div>
+        <!--========= Main Content End ========-->
+    </div>
+    <!-- ==== Main Container End ===== -->
+
+    <!--Style Switcher-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="daynight s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4> Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--Style Switcher End-->
+
+    <!-- ==== JavaScript ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.min.js"></script>
+    <script src="../../assets/js/script.js"></script>
 </body>
 </html>
