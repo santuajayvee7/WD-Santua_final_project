@@ -13,7 +13,6 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  https://santuajayvee7.github.io/WD-Santua_final_project/
   This final project is portfolio type where all the works in this course is compiled.
   
 </div>
