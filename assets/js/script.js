@@ -44,9 +44,10 @@ window.addEventListener("load",() => {
 
 
 /*======= Typing Animation =============*/
-const typed = new Typed(".typing", {
-    strings: ["Web Designer", "IT Student", "Jakolero"], // Replace with your desired strings
-    typeSpeed: 100,
-    backSpeed: 60,
+var typed = new Typed(".text", {
+    strings: [ "Cybersecurity Student","Gamer", "Dancer","Adventurer"],
+    typeSpeed: 120,
+    backSpeed: 50,
+    backDelay: 1000,
     loop: true
 });
