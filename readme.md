@@ -74,12 +74,39 @@ Guiding Question:
 - CSS Styling 
 - HTML Structure
 - JavaScript
+- Documentation on Readme.md
+- Examples of variations of project
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
+### Deployment Instructions
+  - Click my github link https://github.com/santuajayvee7 and go to repositories.
+  - Find the repository named WD-Santua_final_project, heres the link https://github.com/santuajayvee7/WD-Santua_final_project.
+  - Click the actions to navigate the deployment link.
+
+### Website Link and Repositories
+First Project: - https://santuajayvee7.github.io/WD_Santua/
+               - https://github.com/santuajayvee7/WD_Santua
+--------------------------------------------------------------------
+Seatwork 2 :- https://santuajayvee7.github.io/wd-santua_sw2/
+            - https://github.com/santuajayvee7/wd-santua_sw2
+--------------------------------------------------------------------
+Seatwork 3 : - https://santuajayvee7.github.io/WD_Santua_SW3/
+             - https://github.com/santuajayvee7/WD_Santua_SW3
+--------------------------------------------------------------------
+Hands On 2 : - https://santuajayvee7.github.io/WD-Hands_On-2/
+             - https://github.com/santuajayvee7/WD-Hands_On-2
+--------------------------------------------------------------------
+Seatwork 4 : - https://santuajayvee7.github.io/WD-sw4_santua/
+             - https://github.com/santuajayvee7/WD-sw4_santua
+--------------------------------------------------------------------
+Final Project : - https://santuajayvee7.github.io/WD-Santua_final_project/
+                - https://github.com/santuajayvee7/WD-Santua_final_project
+                
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -125,4 +152,6 @@ WD-ProjectName
 | Youtube | For reference | https://www.youtube.com/watch?v=DmiVBbNLzo8&list=PLrKudo5h_b8CKGtcPWIYtWmbTokv8QhlY&index=2|
 
 
-Wakatime Link: https://wakatime.com/dashboard
+## Wakatime
+https://wakatime.com/@santuajayvee7
+
